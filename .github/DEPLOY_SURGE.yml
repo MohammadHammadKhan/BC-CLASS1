@@ -29,6 +29,6 @@ jobs:
           node-version: 12 
       - name: Install surge
       - run: npm install -g surge
-      - name: deploy on surge
+      - name: deploy on surgee
       - run: surge ./ bc-class-1-mhk.surge.sh --token ${{secret.SURGE_TOKEN}}
       
